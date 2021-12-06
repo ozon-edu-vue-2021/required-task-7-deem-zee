@@ -1,0 +1,80 @@
+.datalist {
+    display: flex;
+    flex-direction: column;
+}
+.datalist-person {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    margin: 2px 0;
+    border-left: none;
+    border-right: none;
+    z-index: 2;
+    cursor: pointer;
+}
+.avatar {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 50%;
+    background-image: url('../../i/default-img.png');
+    background-size: cover;
+}
+.personName {
+    align-self: center;
+    margin: 5px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.popular{
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border: 1px solid black;
+    border-right: none;
+    border-left: none;
+    width: 400px;
+    height: 50px;
+    margin: 2px 0;
+}
+
+.personalCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#close {
+    align-self: center;
+    font-family: sans-serif;
+    width: 20px;
+    height: 20px;
+    background-image: url('../../i/back-icon.png');
+    background-size: cover;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.active {
+    background-image: url('../../i/background-active.jpg');
+}
+
+.icon {
+    background-image: url('../../i/man.png'); 
+    background-size: cover;
+    height: 20px;
+    width: 20px; 
+    align-self: center; 
+}
+
+.personalCard-person {
+    display: flex;
+    border: 1px solid black;
+    width: 400px;
+    margin: 2px 0;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    height: 62px;
+}
